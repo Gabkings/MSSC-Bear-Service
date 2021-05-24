@@ -1,4 +1,4 @@
-package com.gabkings.msscbearservice.web_model;
+package com.gabkings.msscbearservice.web.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

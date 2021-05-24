@@ -1,4 +1,4 @@
-package com.gabkings.msscbearservice.web_model;
+package com.gabkings.msscbearservice.web.model;
 
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
