@@ -9,6 +9,8 @@ import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.util.UUID;
 
+import static com.gabkings.msscbearservice.web.model.BeerStyleEnum.LAGER;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -18,7 +20,7 @@ public class BeerDto {
     private UUID id;
     private BigDecimal price;
     private Integer quantityOnHand;
-    private BeerStyleEnum beerStyleEnum;
+    private BeerStyleEnum beerStyleEnum = LAGER;
     private Long upc;
     private String beerName;
     private Integer version;
